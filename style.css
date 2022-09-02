@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+
+/* ------------------------------ */
+/* ----- BACKGROUND IMAGE ------- */
+/* ------------------------------ */
+
+body{
+  background-image: url('./assets/bg_opaced.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  /* overflow: hidden; */
+  
+}
+
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 20vh;
+  align-items: center;
+}
+
+nav .list{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap : 40px
+}
+
+.list-item{
+  font-size: 18px;
+  font-family: 'Red Rose';
+  font-weight: 400;
+  color: #FFC233;
+}
+
+nav div img{
+  margin-left: -20%;
+  width:145px;
+}
+
+.button-small{
+  padding: 12px 28px;
+  color: #000;
+  font-size: 14px;
+  font-family: 'Red Rose';
+  font-weight: 500;
+  background-color: #E83A59;
+  color:#FFF;
+  border: none;
+
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero{
+  height: 80vh;
+  width:90%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-heading{
+  font-family: 'Dela Gothic One';
+  font-weight: 400;
+  font-size: 100px;
+  text-align: center;
+  color: #FFC233;
+  line-height: 1.1em;
+  margin-bottom: 5%;
+}
+
+.button-large{
+  display: block;
+  margin: 45px auto;
+  padding: 24px 52px;
+  font-family: 'Red Rose';
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #E83A59;
+  color:#FFF;
+  border: none;
+}
+
+.bottom div img{
+
+  position:absolute;
+  top: 100%;
+  right:90px;
+  padding: 20px;
+  width: 150px;
+}
